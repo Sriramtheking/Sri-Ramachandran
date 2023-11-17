@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student-reg</title>
+</head>
+<body style="background-color: rgb(242, 240, 255);">
+  <table>
+        
+        <caption style="color:rgb(153, 24, 24);"><span><u style="font-size: 150%;">Student Registration Form Using Table in HTML</u></span></caption>
+    <tr>
+        <td>First Name &emsp;&emsp;&emsp;&ensp;&nbsp;</td>
+        <td><input type ="text" name="fname" value=""required  size="25"/>&nbsp;(Max 50 Characters Allowed)<br><br></td>
+    </tr>
+    <tr>
+        <td>Last Name&emsp;&emsp;&emsp;&ensp;&nbsp;</td>
+        <td><input type ="text" name="lname" value=""required  size="25"/>&nbsp;(Max 50 Characters Allowed)<br><br></td>
+    </tr>
+    </table>
+    <form action="success.html" method="Post"> 
+        <label>Email ID</label>&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;
+        <input type ="email" name="mail" value=""required  size="25"/><br><br>
+        <label>Mobile Number</label>&emsp;&ensp;&nbsp;&nbsp;
+        <input type ="number" name="num" value=""required size="25"/>&nbsp;(10 Digits Allowed)<br><br>
+        <label>Gender</label>&emsp;&emsp;&emsp;&emsp;&ensp;&ensp;
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female<br><br>    
+        <label>Date of Birth(DOB)</label>&ensp;
+        <input type="date" name="DOB" value=""required/><br><br>
+        <label>Address</label>&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input type="text" name="Address" value=""required  size="60" style="height: 150px;"/><br><br>
+        <label>City</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+        <input type ="text" name="City" value=""required  size="25"/>&nbsp;(Max 50 Characters Allowed)<br><br>
+        <label>Pin Code</label>&emsp;&emsp;&emsp;&emsp;&nbsp;
+        <input type ="number" name="Pin Code" value=""required  size="25"/>&nbsp;(Max 6 Characters Allowed)<br><br>
+        <label>State</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input type ="text" name="State" value=""required  size="25"/>&nbsp;(Max 50 Characters Allowed)<br><br>
+        <label>Country</label>&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;
+        <input type ="text" name="Country" value=""required  size="25"/>&nbsp;(Max 50 Characters Allowed)<br><br>
+        <label>State</label>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <input type ="text" name="State" value=""required  size="25"/>&nbsp;(Max 50 Characters Allowed)<br><br>
+        <label>Hobbies</label>&emsp;&emsp;&emsp;&emsp;&nbsp;
+        <input type="checkbox" name="dr"   value="Drawing">Drawing
+        <input type="checkbox" name="Sing"  value="Singing">Singing
+        <input type="checkbox" name="Dance" value="Dancing">Dancing
+        <input type="checkbox" name="Sketch" value="Sketching">Sketching
+        <br>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;
+        <input type="checkbox" name="others" value="others">others
+        <input type ="text" name="others" value=""required  size="25"/>&nbsp;(Max 50 <br>&ensp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Characters Allowed)<br><br>
+        
+        <table>
+            <tr>
+                <td>Qualification&emsp;&emsp;</td>
+                <td>
+                    <input type="checkbox" name="High" value="High">High School(10th)<br>
+                    <input type="checkbox" name="Higher" value="Higher">Higher School(12th)
+                    <input type="checkbox" name="Graduation" value="Graduation">Graduation(Bachelors)
+                    <input type="checkbox" name="Post" value="Post">Post Graduation(Masters)<br>
+                    <input type="checkbox" name="Phd" value="Phd">Phd<br><br>
+                </td>
+            </tr>
+            <br>
+         <tr>
+            <td>Course<br>Applied For&emsp;&emsp;</td>
+             <td> <input type="checkbox" name="B-Computer" value="B-Computer">BCA(Bachelor of Computer Applications)<br>
+                <input type="checkbox" name="B-Commerece" value="B-Commerece">B.com(Bachelor of Commerece)<br> 
+                <input type="checkbox" name="B-Science" value="B-Science">B.sc(Bachelors of Science)<br>
+                <input type="checkbox" name="B-Arts" value="B-Arts">BA(Bachelors of Arts)<br>
+                <input type="checkbox" name="Computer" value="Computer">MCA(Master of Computer Applications)<br> 
+                <input type="checkbox" name="Commerece" value="Commerece">M.com(Master of Commerece)<br> 
+                <input type="checkbox" name="Science" value="Science">M.sc(Master of Science)<br>
+                <input type="checkbox" name="Arts" value="Arts">MA(Master of Arts)<br><br>
+            </td>
+         </tr>
+         <tr>
+            <td>&emsp;</td>
+            <td>&emsp;&emsp;<button style="background-color: aliceblue;">Summit</button>&nbsp;<button style="background-color: aliceblue;">Reset</button></td>
+         </tr>s
+        </table>
+    </form> 
+</body>
+</html>
