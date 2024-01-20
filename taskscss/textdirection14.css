@@ -1,0 +1,8 @@
+.abc{
+    direction: rtl;
+    color: violet;
+}
+.bcd{
+    direction: ltr;
+    color: brown;
+}
